@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  MYSQL_DATABASE: saumyaDB
+  MYSQL_USER: saumyaUser
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: saumya-db-config
+  namespace: saumya-project
